@@ -246,6 +246,10 @@ img {
   font-weight: 600;
   font-size: 0.9rem;
   text-transform: uppercase;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: var(--transition);
 }
 
 .nav-item:hover,
@@ -764,6 +768,14 @@ img {
   text-transform: uppercase;
   padding: 10px 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  background: none;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  cursor: pointer;
+  transition: var(--transition);
+  text-align: left;
+  width: 100%;
 }
 
 .mobile-item:hover,
